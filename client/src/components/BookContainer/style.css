@@ -1,0 +1,33 @@
+.overflow-container {
+    max-height: 545px;
+    border: 1px rgb(221, 221, 221) solid;
+    border-radius: 4px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .overflow-container ul {
+    margin: 0;
+  }
+  
+  .overflow-container li {
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .overflow-container li * {
+    cursor: pointer;
+  }
+  
+  .overflow-container li a {
+    color: rgb(42, 57, 140);
+  }
+  
+  .overflow-container li:first-child {
+    border-top: none;
+  }
+  
+  .overflow-container li:last-child {
+    border-bottom: none;
+  }
